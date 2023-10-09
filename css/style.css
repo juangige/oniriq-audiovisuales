@@ -260,6 +260,7 @@ body {
 
 .tittleSobreNosotros{
     font-family: 'Ubuntu', sans-serif;
+    color: #000000;
     font-weight: 600;
     font-size: 25px;
     padding-bottom: 10px;
@@ -300,6 +301,7 @@ body {
 
 .nuestrosValores{
     font-family: 'Ubuntu', sans-serif;
+    color: #000000;
     font-weight: 400;
     margin: .5rem 0;
 }
@@ -315,6 +317,7 @@ body {
 
 .visionTittle{
     font-family: 'Ubuntu', sans-serif;
+    color: #000000;
     font-weight: 400;
     margin: .5rem 0;
 }
@@ -767,5 +770,51 @@ body {
     }
     .cosasAburridas span{
         padding: 1px;
+    }
+}
+
+/* Nosotros Mobile */
+
+@media screen and (max-width: 480px) {
+
+    .contenedorNosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .nosotros1{
+        width: 100%;
+    }
+
+    .imgRodaje{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenedor-info{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .img-promocion{
+        display: none;
+    }
+
+    .promocion{
+        width: 100%;
+        order: 1;
+    }
+
+    .tittlePromocion{
+        margin: 0;
+        padding: 0;
+    }
+
+    .botonConsulta{
+        display: inline-block;
+        text-align: center;
     }
 }
