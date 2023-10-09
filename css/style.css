@@ -307,11 +307,6 @@ body {
 .valoresInfo{
     width: 90%;
     font-size: 13px;
-    padding: 0;
-}
-
-.valoresList{
-    padding: 0 !important;
 }
 
 .contenedorVision{
