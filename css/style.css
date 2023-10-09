@@ -682,6 +682,10 @@ body {
         padding-bottom: 1rem;
     }
 
+    .sectionImg-1 img{
+        width: 100%;
+    }
+
     .sectionImg-1{
         display: grid;
         grid-template-columns: 1fr;
