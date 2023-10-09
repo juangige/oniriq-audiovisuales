@@ -182,19 +182,6 @@ body {
 
 .galeriaNovedades{
     background-color: #e2e2e2;
-    display: flex;
-}
-
-.galeria{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-.galeria img{
-    width: 50%;
 }
 
 .primerNovedad{
@@ -202,6 +189,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.primerNovedad img{
+    width: 50%;
 }
 
 .galeria h6{
@@ -639,6 +630,10 @@ body {
     gap: 1rem;
 }
 
+.bi:hover{
+    color: #13c0a3;
+}
+
 .redes-footer{
     display: flex;
     gap: .5rem;
@@ -696,7 +691,6 @@ body {
     .section-bienvenidos{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 4fr;
         max-width: 100%;
         padding-top: 10px;
     }
@@ -713,14 +707,9 @@ body {
         width: 100%;
     }
 
-    .galeriaNovedades{
+    .galeriaMobile{
         display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: 2fr;
-    }
-
-    .galeria{
-        width: 100%;
+        grid-template-columns: 1fr;
     }
 
     .primerNovedad{
@@ -730,6 +719,8 @@ body {
     .primerNovedad p{
         padding: 0;
     }
+
+    /* Footer */
 
     .footer{
         display: flex;
