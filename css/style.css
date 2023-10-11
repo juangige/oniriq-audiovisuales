@@ -805,3 +805,30 @@ body {
         text-align: center;
     }
 }
+
+/* Fotografia Mobile */
+
+@media screen and (max-width: 480px) {
+
+    .contenedorMiami{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tittleMiami1{
+        width: 100%;
+    }
+
+    .contenedorFoto1{
+        width: 100%;
+    }
+
+    .mobile-order1{
+        order: 1;
+    }
+
+    .mobile-order2{
+        order: 2;
+    }
+
+}
