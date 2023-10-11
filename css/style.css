@@ -429,55 +429,51 @@ body {
     height: 100px;
 }
 
-.configTarjetas{
+.contenedorMiami{
     display: flex;
-    align-items: center;
+    padding: 2rem 1rem;
 }
 
-.configTarjeta{
-    display: flex;
-    align-items: center;
-}
-
-.textTarjetas{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.section-tarjeta{
-    box-sizing: content-box;
-    background-color: #383535;
+.tittleMiami1{
+    display: block;
     width: 50%;
-    margin: 20px;
+    padding-left: 20px;
+}
+
+.tittleMiami1 h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.parrafo1Miami{
+    padding: 10px 0px;
+}
+
+.parrafo1Miami p{
+    width: 100%;
+    font-size: 15px;
+}
+
+.contenedorFoto1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.foto1miami{
+    width: 80%;
     border-radius: 10px;
 }
 
-.configTarjeta img{
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-left:20px;
-    background-color: #383535;
-    border-radius: 10px;
-}
+/* Segundo Contenedor Descripcion */
 
-.tituloTarjeta{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-}
-
-.descripcionTarjeta{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
-    color: #ffffff;
+.tittleMiami2{
+    padding: 0;
 }
 
 
-/****** MAIN CONTACTO ******/
+
+/**** MAIN CONTACTO ******/ 
 
 .banner-contacto{
     background-image: url("../img/banner1.png");
