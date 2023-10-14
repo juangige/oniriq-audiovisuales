@@ -1,834 +1,793 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
 /****** BODY SETTINGS ******/
-
 body {
-    background-color: #fff9f4;
+  background-color: #fff9f4;
 }
 
-.main{
-    min-height: 100vh;
+.main {
+  min-height: 100vh;
 }
 
 /****** HEADER - NAV ******/
-
 .logo {
-    max-width: 8rem;
+  max-width: 8rem;
 }
 
-.nav-setting{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.nav-setting {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-
 
 /****** MAIN INDEX ******/
-
-.banner-index{
-    background-image: url("../img/banner1.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.banner-index {
+  background-image: url("../img/banner1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
-
-.tituloh1-main{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 10px;
-    color: #fff9f4;
+.banner-index .tituloh1-main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff9f4;
 }
 
 /* Seccion 1 */
-
-.sectionImg-1{
-    width: 100%;
-    display: flex;
-    padding: 2rem 1rem;   
-    background-color: #fff9f4;
+.sectionImg-1 {
+  width: 100%;
+  display: flex;
+  padding: 2rem 1rem;
+  background-color: #fff9f4;
 }
 
-.sectionImg-1 img{
-    border-radius: 10px;
-    width: 90%;
+.sectionImg-1 img {
+  border-radius: 10px;
+  width: 90%;
 }
 
-.somos-text-small{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    color: #5d6661;
-    font-size: 17px;
-    padding-left: 40px;
+.section-bienvenidos {
+  box-sizing: border-box;
+  max-width: 50%;
 }
-
-
-.section-bienvenidos{
-    box-sizing: border-box;
-    max-width: 50%;
+.section-bienvenidos .somos-text-small {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #5d6661;
+  font-size: 17px;
+  padding-left: 40px;
 }
-    
-.paragrah-cont1{
-    display: inline-block;
-    box-sizing: content-box;
-    text-align: center;
-    color: #000000;
-    width: 90%;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+.section-bienvenidos .paragrah-cont1 {
+  display: inline-block;
+  box-sizing: content-box;
+  text-align: center;
+  color: #000000;
+  width: 90%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-
-.tituloh2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    display: inline-block;
-    text-align: start;
-    padding-top: 10px;
-    padding-left: 40px;
-    color: #000000;
+.section-bienvenidos .tituloh2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  display: inline-block;
+  text-align: start;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: #000000;
 }
-
-.parrafo1{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
-    font-size: 16px;
-    display: inline-block;
-    text-align: start;
-    padding-left: 20px;
+.section-bienvenidos .parrafo1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  display: inline-block;
+  text-align: start;
+  padding-left: 20px;
 }
-
-.contenido-text{
-    display: flex;
+.section-bienvenidos .contenido-text {
+  display: flex;
 }
-
-.cont-texto-bienv{
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
+.section-bienvenidos .cont-texto-bienv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
 }
-
-.text-medium{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    padding-bottom: .2rem;
+.section-bienvenidos .text-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  padding-bottom: 0.2rem;
 }
-
-.p-creatividad{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    width: 80%;
-
+.section-bienvenidos .p-creatividad {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  width: 80%;
 }
 
 /* Seccion 2 Novedades */
-
-.contenedor-boots{
-    display: flex;
+.contenedor-boots {
+  display: flex;
 }
 
-.novedades{
-    background-color: #e2e2e2;
-    width: 100%;
-    padding-bottom: 20px;
+.novedades {
+  background-color: #e2e2e2;
+  width: 100%;
+  padding-bottom: 20px;
 }
-
-.sinergia{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #5d6661;
-    font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-    margin-bottom: 15px ;
+.novedades .sinergia {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5d6661;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 15px;
 }
-
-.novedadesTittle{
-    font-family: 'Monserat', sans-serif;
-    color: #232425;
-    font-weight: 700;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+.novedades .novedadesTittle {
+  font-family: "Monserat", sans-serif;
+  color: #232425;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 /* Galeria Novedades */
-
-.galeriaNovedades{
-    background-color: #e2e2e2;
+.galeriaNovedades {
+  background-color: #e2e2e2;
+}
+.galeriaNovedades .primerNovedad img {
+  width: 50%;
+}
+.galeriaNovedades .primerNovedad p {
+  font-family: "Monserat", sans-serif;
+  color: #5d6661;
+  font-weight: 400;
+  text-align: start;
+  display: inline-block;
+  width: 50%;
+  margin-top: 5px;
+  padding-left: 20px;
 }
 
-.primerNovedad{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.primerNovedad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.primerNovedad img{
-    width: 50%;
+.primerNovedad .galeria h6 {
+  font-family: "Monserat", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 0.5rem;
 }
-
-.galeria h6{
-    font-family: 'Monserat', sans-serif;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 600;
-    padding-top: .5rem;
-}
-
-.primerNovedad p{
-    font-family: 'Monserat', sans-serif;
-    color: #5d6661;
-    font-weight: 400;
-    text-align: start;
-    display: inline-block;
-    width: 50%;
-    margin-top: 5px;
-    padding-left: 20px;
-}
-
 
 /****** MAIN NOSOTROS ******/
-
-.banner-somos{
-    background-image: url("../img/banner1.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.banner-somos {
+  background-image: url("../img/banner1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
-
-.tituloh1-nosotros{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 10px;
-    color: #ffffff;
+.banner-somos .tituloh1-nosotros {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
 }
 
 /* Contenedor 1 */
-
-.contenedorNosotros{
-    display: flex;
-    gap: 1rem;
-    padding: 2rem 1rem;
-    width: 100%;
-    background-color: #fff9f4;
-    margin-bottom: 1rem;
+.contenedorNosotros {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  width: 100%;
+  background-color: #fff9f4;
+  margin-bottom: 1rem;
 }
 
-.nosotros1{
-    width: 50%;
-    padding-left: 10px;
+.nosotros1 {
+  width: 50%;
+  padding-left: 10px;
+}
+.nosotros1 .tittleSobreNosotros {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.nosotros1 .breveInfo {
+  font-weight: 200;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.nosotros1 .nuestroDesafio {
+  font-size: 13px;
+  padding: 10px 0;
 }
 
-.tittleSobreNosotros{
-    font-family: 'Ubuntu', sans-serif;
-    color: #000000;
-    font-weight: 600;
-    font-size: 25px;
-    padding-bottom: 10px;
+.imgRodaje {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 50%;
+}
+.imgRodaje .nosotrosImg {
+  width: 90%;
+  border-radius: 10px;
 }
 
-.breveInfo{
-    font-weight: 200;
-    font-size: 16px;
-    padding: 10px 0;
+.valoresVision {
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
 }
 
-.nuestroDesafio{
-    font-size: 13px;
-    padding: 10px 0;
+.valoresContenedor {
+  width: 50%;
+}
+.valoresContenedor .nuestrosValores {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+.valoresContenedor .valoresInfo {
+  width: 90%;
+  font-size: 13px;
 }
 
-.imgRodaje{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 50%;
+.contenedorVision {
+  width: 50%;
 }
-
-.nosotrosImg{
-    width: 90%;
-    border-radius: 10px;
+.contenedorVision .visionTittle {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  margin: 0.5rem 0;
 }
-
-.valoresVision{
-    display: flex;
-    width: 100%;
-    padding: 5px 0;
-}
-
-.valoresContenedor{
-    width: 50%;
-}
-
-.nuestrosValores{
-    font-family: 'Ubuntu', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    margin: .5rem 0;
-}
-
-.valoresInfo{
-    width: 90%;
-    font-size: 13px;
-}
-
-.contenedorVision{
-    width: 50%;
-}
-
-.visionTittle{
-    font-family: 'Ubuntu', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    margin: .5rem 0;
-}
-
-.parrafoVision{
-    width: 80%;
-    font-size: 13px;
+.contenedorVision .parrafoVision {
+  width: 80%;
+  font-size: 13px;
 }
 
 /* Contenedor Promocion */
-
-.contenedorPromocion{
-    background-color: #e2e2e2;
-    width: 100%;
+.contenedorPromocion {
+  background-color: #e2e2e2;
+  width: 100%;
 }
 
-.contenedor-info{
-    display: flex;
+.contenedor-info {
+  display: flex;
 }
 
-.img-promocion{
-    display: flex;
-    gap: 1rem;
-    padding: 2rem 1rem;
-    width: 50%;
+.img-promocion {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  width: 50%;
+}
+.img-promocion .img-claqueta {
+  width: 90%;
+  border-radius: 10px;
 }
 
-.img-claqueta{
-    width: 90%;
-    border-radius: 10px;
+.promocion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  gap: 1rem;
+  width: 50%;
 }
-
-.promocion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-    gap: 1rem;
-    width: 50%;
+.promocion .tittlePromocion {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #5d6661;
+  font-size: 17px;
+  padding-top: 10px;
+  margin-top: 20px;
+  width: 100%;
 }
-
-.tittlePromocion{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    color: #5d6661;
-    font-size: 17px;
-    padding-top: 10px;
-    margin-top: 20px;
-    width: 100%;
+.promocion .textoPromocion1 {
+  width: 100%;
 }
-
-.textoPromocion1{
-    width: 100%;
+.promocion .textoPromocion2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
 }
-
-.textoPromocion2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
+.promocion .botonConsulta {
+  width: 100%;
 }
-
-.botonConsulta{
-    width: 100%;
-}
-
-.btnConsulta{
-    width: 50%;
-    padding: 5px 0px;
+.promocion .btnConsulta {
+  width: 50%;
+  padding: 5px 0px;
 }
 
 /****** MAIN PROYECTOS ******/
-
 /* Falta acomodar con Flex y Grid las Box */
-
-.banner-proyecto{
-    background-image: url("../img/banner1.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.banner-proyecto {
+  background-image: url("../img/banner1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.banner-proyecto .tituloh1-main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff9f4;
 }
 
-.conteiner-proyecto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+.container-proyecto {
+  display: flex;
+  margin: 20px 0;
+  gap: 2rem;
 }
-
-.section1-proyecto{
-    padding-bottom: 1em;
+.container-proyecto .cont-proyecto1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
-
-
-.cont-proyecto1{
-    display: inline-block;
-    box-sizing: content-box;
-    background-color: #383535;
-    margin-top: 20px;
-    margin-left: 40px;
+.container-proyecto .cont-proyecto1 .titulo-proyecto1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  text-align: start;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #000000;
 }
-
-.titulo-proyecto1{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #C4CBCA;
+.container-proyecto .containerTexto-Bosche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+}
+.container-proyecto .containerTexto-Bosche .tittle-bosche {
+  font-size: 20px;
+}
+.container-proyecto .containerTexto-Bosche p {
+  font-weight: 100;
 }
 
 /****** MAIN FOTOGRAFIA ******/
-
-.banner-fotografia{
-    background-image: url("../img/banner1.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.banner-fotografia {
+  background-image: url("../img/banner1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.banner-fotografia .tituloh1-main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff9f4;
 }
 
-.contenedorMiami{
-    display: flex;
-    padding: 2rem 1rem;
+.contenedorMiami {
+  display: flex;
+  padding: 2rem 1rem;
 }
 
-.tittleMiami1{
-    display: block;
-    width: 50%;
-    padding-left: 20px;
+.tittleMiami1 {
+  display: block;
+  width: 50%;
+  padding-left: 20px;
 }
 
-.tittleMiami1 h2{
-    font-size: 20px;
-    font-weight: 500;
+.tittleMiami1 h2 {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.parrafo1Miami{
-    padding: 10px 0px;
+.parrafo1Miami {
+  padding: 10px 0px;
+}
+.parrafo1Miami .parrafo1Miami p {
+  width: 100%;
+  font-size: 15px;
 }
 
-.parrafo1Miami p{
-    width: 100%;
-    font-size: 15px;
+.contenedorFoto1 {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
 }
-
-.contenedorFoto1{
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-}
-
-.foto1miami{
-    width: 80%;
-    border-radius: 10px;
+.contenedorFoto1 .foto1miami {
+  width: 80%;
+  border-radius: 10px;
 }
 
 /* Segundo Contenedor Descripcion */
-
-.tittleMiami2{
-    padding: 0;
+.tittleMiami2 {
+  padding: 0;
 }
 
-
-
-/**** MAIN CONTACTO ******/ 
-
-.banner-contacto{
-    background-image: url("../img/banner1.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+/**** MAIN CONTACTO ******/
+.banner-contacto {
+  background-image: url("../img/banner1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.banner-contacto .tituloh1-main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff9f4;
 }
 
-.contenedorContacto1{
-    display: flex;
-    gap: 1rem;
-    width: 100%;
-    padding: 2rem 2rem;
-    margin-bottom: 30px;
+.contenedorContacto1 {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem 2rem;
+  margin-bottom: 30px;
 }
 
-.tittleContact{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
+.tittleContact2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  padding-left: 30px;
 }
 
-.tittleContact2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    padding-left: 30px;
+.form-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  gap: 1rem;
+  width: 50%;
+}
+.form-section .tittleContact {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.form-section .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.form-section .form .inputForm {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
 }
 
-.form-section{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px;
-    gap: 1rem;
-    width: 50%;
+.contenedorMap {
+  background-color: #f3eeee;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px 10px;
+  width: 50%;
+  border-radius: 10px;
 }
-
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
+.contenedorMap .tittleMap {
+  width: 100%;
+  text-align: center;
 }
-
-.inputForm{
-    margin-bottom: 10px;
-    padding: 10px;
-    outline: none;
-}
-
-
-
-.contenedorMap{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 10px 10px;
-    width: 50%;
-}
-
-.tittleMap{
-    width: 100%;
-    text-align: center;
-}
-
-.map{
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    padding-left: 30px;
+.contenedorMap .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 30px;
 }
 
 /****** FOOTER ******/
-
-/* Falta acomodar con Flex y Grid las Box */
-
-.footer{
-    background-color: #161616;
-    padding: 0.7em 0;
-    width: 100%;
-    margin-top: 0px;
+.footer {
+  background-color: #161616;
+  padding: 0.7em 0;
+  width: 100%;
+  margin-top: 0px;
+}
+.footer .newsletter .newsletter-f {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .newsletter .tittle-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: "Monserat", sans-serif;
+  font-weight: 300;
+  color: #e2e2e2;
+  font-size: 18px;
+}
+.footer .newsletter .newsletterInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.footer .newsletter .newsletterInput .btnNewsletter {
+  font-family: "Monserat", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 1px;
+  padding-bottom: 15px;
+  border: 0;
+  border-bottom: #000000 solid 0.5px;
+  outline: none;
+  background-color: inherit;
+  color: #e2e2e2;
+  width: 30%;
 }
 
-.newsletter-f{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.infoFooter {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monserat", sans-serif;
+  color: #e2e2e2;
+  width: 100%;
+  padding: 37px;
+}
+.infoFooter .subTittleFooter {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.infoFooter .contactoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
-.tittle-newsletter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-family: 'Monserat', sans-serif;
-    font-weight: 300;
-    color: #e2e2e2;
-    font-size: 18px;
+.redes-footer {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.redes-footer .iconosFooter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.redes-footer .iconosFooter .sizeIconsSocial {
+  font-size: 25px;
+}
+.redes-footer .bi:hover {
+  color: #13c0a3;
 }
 
-.newsletterInput{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
+.cosasAburridas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-
-.btnNewsletter{
-    font-family: 'Monserat', sans-serif;
-    font-size: 14px;
-    margin-bottom: 1px;
-    padding-bottom: 15px;
-    border: 0;
-    border-bottom: #000000 solid .5px;
-    outline: none;
-    background-color: inherit;
-    color: #e2e2e2;
-    width: 30%;
+.cosasAburridas .cosasAburridas span {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
 }
-
-.sizeIconsSocial{
-    font-size: 25px;
-}
-
-.infoFooter{
-    display: flex;
-    gap: 10rem;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Monserat', sans-serif;
-    color: #e2e2e2;
-    width: 100%;
-    padding: 37px;
-}
-
-.subTittleFooter{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.contactoFooter{
-    display: flex;
-    flex-direction: column;
-    gap: .4rem;
-}
-
-.iconosFooter{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-}
-
-.bi:hover{
-    color: #13c0a3;
-}
-
-.redes-footer{
-    display: flex;
-    gap: .5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cosasAburridas{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-.cosasAburridas span{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    gap: 1rem
-}
-
-
 
 /***** VERSION MOBILE *****/
 /* Index */
-
-
 @media screen and (max-width: 480px) {
-    
-    .header-mobile{
-        flex-direction: column;
-    }
-
-    .logo{
-        margin: 0;
-    }
-
-    .nav-list{
-        display: flex;
-        gap: 1rem;
-        margin: 0;
-        padding-bottom: 1rem;
-    }
-
-    .sectionImg-1 img{
-        width: 100%;
-    }
-
-    .sectionImg-1{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-
-    }
-
-    .section-bienvenidos{
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 100%;
-        padding-top: 10px;
-    }
-
-    .somos-text-small{
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding: 0;
-        margin-left: 42px;
-    }
-
-    .p-creatividad{
-        width: 100%;
-    }
-
-    .galeriaMobile{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .primerNovedad{
-        padding: .5rem;
-    }
-
-    .primerNovedad p{
-        padding: 0;
-    }
-
-    /* Footer */
-
-    .footer{
-        display: flex;
-        flex-direction: column;
-        padding: .3rem 0;
-        width: 100%;
-        margin-top: 0px;
-    }
-
-    .newsletterInput{
-        margin-top: 5px;
-    }
-    .btnNewsletter{
-        width: 50%;
-    }
-
-    .infoFooter{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contactoFooter{
-        text-align: center;
-    }
-
-    .cosasAburridas{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .copyright{
-        width: 60%;
-        text-align: center;
-    }
-    .cosasAburridas span{
-        padding: 1px;
-    }
+  .logo {
+    margin: 0;
+  }
+  .sectionImg-1 img {
+    width: 100%;
+  }
+  .sectionImg-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+  }
+  .section-bienvenidos {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding-top: 10px;
+  }
+  .section-bienvenidos .somos-text-small {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+  }
+  .section-bienvenidos .tituloh2 {
+    margin: 0;
+    padding: 10px 0;
+  }
+  .section-bienvenidos .paragrah-cont1 {
+    margin: 0;
+    padding: 0;
+  }
+  .section-bienvenidos .paragrah-cont1 p {
+    margin-top: 5px;
+    padding: 0;
+  }
+  .section-bienvenidos .contenido-text {
+    display: flex;
+  }
+  .section-bienvenidos .cont-texto-bienv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0;
+  }
+  .section-bienvenidos .compromiso-container {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .section-bienvenidos .p-creatividad {
+    width: 100%;
+  }
+  .galeriaMobile {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .primerNovedad {
+    padding: 0.5rem;
+  }
+  .primerNovedad p {
+    padding: 0;
+  }
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 0;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .newsletterInput {
+    margin-top: 5px;
+  }
+  .btnNewsletter {
+    width: 50%;
+  }
+  .infoFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactoFooter {
+    text-align: center;
+  }
+  .cosasAburridas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+    width: 60%;
+    text-align: center;
+  }
+  .cosasAburridas span {
+    padding: 1px;
+  }
+  /* Nosotros Mobile */
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .nosotros1 {
+    width: 100%;
+  }
+  .imgRodaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .contenedor-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-promocion {
+    display: none;
+  }
+  .promocion {
+    width: 100%;
+    order: 1;
+  }
+  .tittlePromocion {
+    margin: 0;
+    padding: 0;
+  }
+  .botonConsulta {
+    display: inline-block;
+    text-align: center;
+  }
+  /* Proyectos Mobile */
+  .container-proyecto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container-proyecto .cont-proyecto1 {
+    width: 100%;
+  }
+  .container-proyecto .containerTexto-Bosche {
+    width: 100%;
+  }
+  /* Fotografia Mobile */
+  .contenedorMiami {
+    display: flex;
+    flex-direction: column;
+  }
+  .tittleMiami1 {
+    width: 100%;
+    padding: 0;
+  }
+  .contenedorFoto1 {
+    width: 100%;
+  }
+  .mobile-order1 {
+    order: 1;
+  }
+  .mobile-order2 {
+    order: 2;
+  }
+  .contenedorContacto1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .contenedorContacto1 .form-section {
+    width: 100%;
+  }
+  .contenedorContacto1 .contenedorMap {
+    width: 100%;
+  }
+  .contenedorContacto1 .contenedorMap .tittleContact2 {
+    padding: 0;
+  }
+  .contenedorContacto1 .contenedorMap .map {
+    padding: 0;
+  }
 }
 
-/* Nosotros Mobile */
-
-@media screen and (max-width: 480px) {
-
-    .contenedorNosotros{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    .nosotros1{
-        width: 100%;
-    }
-
-    .imgRodaje{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .contenedor-info{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .img-promocion{
-        display: none;
-    }
-
-    .promocion{
-        width: 100%;
-        order: 1;
-    }
-
-    .tittlePromocion{
-        margin: 0;
-        padding: 0;
-    }
-
-    .botonConsulta{
-        display: inline-block;
-        text-align: center;
-    }
-}
-
-/* Fotografia Mobile */
-
-@media screen and (max-width: 480px) {
-
-    .contenedorMiami{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tittleMiami1{
-        width: 100%;
-    }
-
-    .contenedorFoto1{
-        width: 100%;
-    }
-
-    .mobile-order1{
-        order: 1;
-    }
-
-    .mobile-order2{
-        order: 2;
-    }
-
-}
+/*# sourceMappingURL=style.css.map */
