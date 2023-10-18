@@ -1,0 +1,171 @@
+/****** MAIN NOSOTROS ******/
+
+.banner-somos{
+    background-image: url("../img/banner1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    .tituloh1-nosotros{
+        font-family: $fuentePrincipal;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        color: #ffffff;
+    }
+    
+}
+
+
+/* Contenedor 1 */
+
+.contenedorNosotros{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    width: 100%;
+    background-color: $colorPrincipal;
+    margin-bottom: 1rem;
+
+}
+
+.nosotros1{
+    width: 50%;
+    padding-left: 10px;
+
+    .tittleSobreNosotros{
+        font-family: $fuentePrincipal;
+        color: #000000;
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .breveInfo{
+        font-weight: 200;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .nuestroDesafio{
+        font-size: 13px;
+        padding: 10px 0;
+    }
+}
+
+
+.imgRodaje{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+
+    .nosotrosImg{
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+
+.valoresVision{
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.valoresContenedor{
+    width: 50%;
+
+    .nuestrosValores{
+        font-family: $fuentePrincipal;
+        color: #000000;
+        font-weight: 400;
+        margin: .5rem 0;
+    }
+    
+    .valoresInfo{
+        width: 90%;
+        font-size: 13px;
+    }
+}
+
+
+
+.contenedorVision{
+    width: 50%;
+
+    .visionTittle{
+        font-family: $fuentePrincipal;
+        color: #000000;
+        font-weight: 400;
+        margin: .5rem 0;
+    }
+    
+    .parrafoVision{
+        width: 80%;
+        font-size: 13px;
+    }
+}
+
+
+
+/* Contenedor Promocion */
+
+.contenedorPromocion{
+    background-color: $colorSeccionGris;
+    width: 100%;
+}
+
+.contenedor-info{
+    display: flex;
+}
+
+.img-promocion{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    width: 50%;
+    
+    .img-claqueta{
+        width: 90%;
+        border-radius: 10px;
+    }
+
+}
+
+.promocion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    gap: 1rem;
+    width: 50%;
+
+    .tittlePromocion{
+        font-family: $fuentePrincipal;
+        font-weight: 400;
+        color: $colorTextoGris;
+        font-size: 17px;
+        padding-top: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .textoPromocion1{
+        width: 100%;
+    }
+    
+    .textoPromocion2{
+        font-family: $fuentePrincipal;
+        font-weight: 200;
+    }
+    
+    .botonConsulta{
+        width: 100%;
+    }
+    
+    .btnConsulta{
+        width: 50%;
+        padding: 5px 0px;
+    }
+}

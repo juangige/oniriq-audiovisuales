@@ -1,0 +1,184 @@
+
+
+/****** MAIN INDEX ******/
+
+.banner-index{
+    background-image: url("../img/banner1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    .tituloh1-main{
+        font-family: $fuentePrincipal;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        color: $colorPrincipal;
+    }
+    
+}
+
+
+/* Seccion 1 */
+
+.sectionImg-1{
+    width: 100%;
+    display: flex;
+    padding: 2rem 1rem;   
+    background-color: $colorPrincipal;
+}
+
+.sectionImg-1 img{
+    border-radius: 10px;
+    width: 90%;
+}
+
+
+.section-bienvenidos{
+    box-sizing: border-box;
+    max-width: 50%;
+
+    
+    .somos-text-small{
+        font-family: $fuentePrincipal;
+        font-weight: 400;
+        color: $colorTextoGris;
+        font-size: 17px;
+        padding-left: 40px;
+    }
+
+    .paragrah-cont1{
+        display: inline-block;
+        box-sizing: content-box;
+        text-align: center;
+        color: #000000;
+        width: 90%;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .tituloh2{
+        font-family: $fuentePrincipal;
+        font-weight: 600;
+        font-size: 25px;
+        display: inline-block;
+        text-align: start;
+        padding-top: 10px;
+        padding-left: 40px;
+        color: #000000;
+    }
+    
+    .parrafo1{
+        font-family: $fuentePrincipal;
+        font-weight: 200;
+        font-size: 16px;
+        display: inline-block;
+        text-align: start;
+        padding-left: 20px;
+    }
+    
+    
+       
+    .contenido-text{
+        display: flex;
+    }
+    
+    .cont-texto-bienv{
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    
+    .text-medium{
+        font-family: $fuentePrincipal;
+        font-weight: 500;
+        padding-bottom: .2rem;
+    }
+    
+    .p-creatividad{
+        font-family: $fuentePrincipal;
+        font-size: 13px;
+        width: 80%;
+    
+    }
+}
+    
+
+
+/* Seccion 2 Novedades */
+
+.contenedor-boots{
+    display: flex;
+}
+
+.novedades{
+    background-color: $colorSeccionGris;
+    width: 100%;
+    padding-bottom: 20px;
+
+    .sinergia{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: $colorTextoGris;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        margin-bottom: 15px ;
+    }
+    
+    .novedadesTittle{
+        font-family: 'Monserat', sans-serif;
+        color: #232425;
+        font-weight: 700;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* Galeria Novedades */
+
+.galeriaNovedades{
+    background-color: $colorSeccionGris;
+    
+        
+    .primerNovedad img{
+        width: 50%;
+    }
+
+    .primerNovedad p{
+        font-family: 'Monserat', sans-serif;
+        color: $colorTextoGris;
+        font-weight: 400;
+        text-align: start;
+        display: inline-block;
+        width: 50%;
+        margin-top: 5px;
+        padding-left: 20px;
+    }
+}
+
+.primerNovedad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .galeria h6{
+        font-family: 'Monserat', sans-serif;
+        color: #000000;
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: .5rem;
+    }
+
+}

@@ -1,0 +1,108 @@
+
+/****** FOOTER ******/
+
+.footer{
+    background-color: $colorFooter;
+    padding: 0.7em 0;
+    width: 100%;
+    margin-top: 0px;
+
+    .newsletter{
+
+        .newsletter-f{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .tittle-newsletter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            font-family: 'Monserat', sans-serif;
+            font-weight: 300;
+            color: #e2e2e2;
+            font-size: 18px;
+        }
+        
+        .newsletterInput{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+
+            .btnNewsletter{
+                font-family: 'Monserat', sans-serif;
+                text-align: center;
+                font-size: 14px;
+                margin-bottom: 1px;
+                padding-bottom: 15px;
+                border: 0;
+                border-bottom: #000000 solid .5px;
+                outline: none;
+                background-color: inherit;
+                color: $colorSeccionGris;
+                width: 30%;
+            }
+        }
+    }
+}
+
+.infoFooter{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monserat', sans-serif;
+    color: $colorSeccionGris;
+    width: 100%;
+    padding: 37px;
+
+    .subTittleFooter{
+        font-family: $fuentePrincipal;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .contactoFooter{
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+    }
+}
+
+.redes-footer{
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .iconosFooter{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+
+        .sizeIconsSocial{
+            font-size: 25px;
+        }
+        
+    }
+    
+    .bi:hover{
+        color: #13c0a3;
+    }
+}
+
+.cosasAburridas{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    .cosasAburridas span{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 1rem
+    }
+}

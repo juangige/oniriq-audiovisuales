@@ -1,0 +1,63 @@
+/****** MAIN FOTOGRAFIA ******/
+
+.banner-fotografia{
+    background-image: url("../img/banner1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    .tituloh1-main{
+        font-family: $fuentePrincipal;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        color: $colorPrincipal;
+    }
+}
+
+.contenedorMiami{
+    display: flex;
+    padding: 2rem 1rem;
+}
+
+.tittleMiami1{
+    display: block;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.tittleMiami1 h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.parrafo1Miami{
+    padding: 10px 0px;
+
+    .parrafo1Miami p{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+
+
+.contenedorFoto1{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+
+    .foto1miami{
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+
+
+
+/* Segundo Contenedor Descripcion */
+
+.tittleMiami2{
+    padding: 0;
+}

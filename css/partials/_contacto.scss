@@ -1,0 +1,84 @@
+
+
+/**** MAIN CONTACTO ******/ 
+
+.banner-contacto{
+    background-image: url("../img/banner1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    .tituloh1-main{
+        font-family: $fuentePrincipal;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        color: $colorPrincipal;
+    }
+}
+
+.contenedorContacto1{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem 2rem;
+    margin-bottom: 30px;
+}
+
+
+.tittleContact2{
+    font-family: $fuentePrincipal;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 1rem;
+    width: 50%;
+
+    .tittleContact{
+        font-family: $fuentePrincipal;
+        font-weight: 400;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+
+        .inputForm{
+            margin-bottom: 10px;
+            padding: 10px;
+            outline: none;
+        }
+    }
+}
+
+
+.contenedorMap{
+    background-color: #f3eeee;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 10px;
+
+    .tittleMap{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding-left: 30px;
+    }
+}
