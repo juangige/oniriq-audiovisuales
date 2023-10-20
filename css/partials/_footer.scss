@@ -71,6 +71,14 @@
     }
 }
 
+.email{
+    transition: 0.2s;
+}
+
+.email:hover{
+    color: $colorHooverTexto;
+}
+
 .redes-footer{
     display: flex;
     gap: .5rem;
@@ -85,10 +93,15 @@
 
         .sizeIconsSocial{
             font-size: 25px;
+            transition: 0.2s;
         }
         
     }
     
+    .sizeIconsSocial:hover{
+        transform: scale(1.1);
+    }
+
     .bi:hover{
         color: #13c0a3;
     }

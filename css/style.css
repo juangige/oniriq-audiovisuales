@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +37,15 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.navLinkH {
+  transition: 0.2s;
+}
+
+.navLinkH:hover {
+  color: #13c0a3;
+  border-bottom: 2px;
 }
 
 /****** MAIN INDEX ******/
@@ -351,10 +361,10 @@ body {
 }
 
 .container-proyecto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+  place-items: center;
   margin: 20px 0;
   gap: 2rem;
 }
@@ -438,6 +448,10 @@ body {
 .contenedorFoto1 .foto1miami {
   width: 80%;
   border-radius: 10px;
+  transition: 0.7s;
+}
+.contenedorFoto1 .foto1miami:hover {
+  transform: scale(1.03);
 }
 
 /* Segundo Contenedor Descripcion */
@@ -582,6 +596,14 @@ body {
   gap: 0.4rem;
 }
 
+.email {
+  transition: 0.2s;
+}
+
+.email:hover {
+  color: #13c0a3;
+}
+
 .redes-footer {
   display: flex;
   gap: 0.5rem;
@@ -596,6 +618,10 @@ body {
 }
 .redes-footer .iconosFooter .sizeIconsSocial {
   font-size: 25px;
+  transition: 0.2s;
+}
+.redes-footer .sizeIconsSocial:hover {
+  transform: scale(1.1);
 }
 .redes-footer .bi:hover {
   color: #13c0a3;

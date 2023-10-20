@@ -41,8 +41,6 @@
     }
 }
 
-
-
 .contenedorFoto1{
     display: inline-block;
     text-align: center;
@@ -51,6 +49,11 @@
     .foto1miami{
         width: 80%;
         border-radius: 10px;
+        transition: 0.7s;
+    }
+
+    .foto1miami:hover{
+        transform: scale(1.03);
     }
 }
 

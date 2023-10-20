@@ -4,8 +4,16 @@
     max-width: 8rem;
 }
 
-.nav-setting{
+.nav-setting {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.navLinkH{
+    transition: 0.2s;
+}
+
+.navLinkH:hover{
+    color: $colorHooverTexto;
 }

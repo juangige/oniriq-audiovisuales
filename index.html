@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ONIRIQ</title>
 </head>
 <body>
 
-    <header class="container-xxl">
+    <header class="container-xxl" data-aos="fade-down">
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
@@ -28,19 +29,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link navLinkH active" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/quienes-somos.html">Nosotros</a>
+                    <a class="nav-link navLinkH" href="./pages/quienes-somos.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/proyectos.html">Producciones</a>
+                    <a class="nav-link navLinkH" href="./pages/proyectos.html">Producciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/fotografia.html">Fotografia</a>
+                    <a class="nav-link navLinkH" href="./pages/fotografia.html">Fotografia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    <a class="nav-link navLinkH" href="./pages/contacto.html">Contacto</a>
                   </li>
                   
                 </ul>
@@ -51,11 +52,11 @@
 
     <main class="mainMobile">
 
-        <section class="banner-index">
+        <section class="banner-index" data-aos="fade-left">
             <h1 class="tituloh1-main">ONIRIQ AUDIOVISUALES</h1>            
         </section>
         
-        <section class="sectionImg-1 container-xxl">
+        <section class="sectionImg-1 container-xxl" data-aos="fade-left">
 
             <img src="./img/section1pic-index.jpg" alt="" class="img-bienvenidos">
 
@@ -91,7 +92,7 @@
 
         </section>
 
-        <section class="novedades">
+        <section class="novedades" data-aos="fade-right">
 
             <span class="sinergia">
                 SINERGIA · MEMORIA COLECTIVA · DETRÁS DE CÁMARAS · Y MÁS
@@ -102,7 +103,7 @@
 
         </section>
 
-        <section class="galeriaNovedades galeriaMobile">
+        <section class="galeriaNovedades galeriaMobile" data-aos="fade-right">
 
             <section class="container-xxl contenedor-boots galeriaNovedades galeriaMobile">
 
@@ -182,7 +183,7 @@
                     <strong>Call:</strong> +54 221 - 0000000
                 </span>
                 <span>
-                    <strong>Email:</strong> <a href="mailto:info@oniriq.com">Info@oniriq.com</a>
+                    <strong>Email:</strong> <a class="email" href="mailto:info@oniriq.com">Info@oniriq.com</a>
                 </span>
                 <span>
                     <strong>La Plata - Argentina</strong>
@@ -229,5 +230,9 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
