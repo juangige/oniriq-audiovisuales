@@ -1,16 +1,11 @@
-
-/***** VERSION MOBILE *****/
-/* Index */
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .logo{
         margin: 0;
     }
 
     .sectionImg-1 img{
-        width: 100%;
+        width: 90%;
     }
 
     .sectionImg-1{
@@ -69,9 +64,7 @@
         }
     }
 
-    
-
-    .galeriaMobile{
+    .galeriaTablets{
         display: grid;
         grid-template-columns: 1fr;
     }

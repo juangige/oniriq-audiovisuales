@@ -115,7 +115,7 @@
     display: flex;
 }
 
-.novedades{
+.servicios{
     background-color: $colorSeccionGris;
     width: 100%;
     padding-bottom: 20px;
@@ -131,7 +131,7 @@
         margin-bottom: 15px ;
     }
     
-    .novedadesTittle{
+    .serviciosTittle{
         font-family: 'Monserat', sans-serif;
         color: #232425;
         font-weight: 700;
@@ -147,38 +147,42 @@
 
 /* Galeria Novedades */
 
-.galeriaNovedades{
+.galeriaServicios{
     background-color: $colorSeccionGris;
     
         
-    .primerNovedad img{
-        width: 50%;
-    }
+    .primerServicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s;
+    
+        h6{
+            font-family: $fuentePrincipal;
+            font-weight: 500;
+            padding-top: 10px;
+        }
+    
+        .imgServicios{
+            border-radius: 10px;
+            width: 50%;
+        }
 
-    .primerNovedad p{
-        font-family: 'Monserat', sans-serif;
-        color: $colorTextoGris;
-        font-weight: 400;
-        text-align: start;
-        display: inline-block;
-        width: 50%;
-        margin-top: 5px;
-        padding-left: 20px;
-    }
+        
+    
+        p{
+            font-family: $fuentePrincipal;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            width: 80%;
+            margin-top: 5px;
+        }
+    
+    }   
 }
 
-.primerNovedad{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .galeria h6{
-        font-family: 'Monserat', sans-serif;
-        color: #000000;
-        font-size: 14px;
-        font-weight: 600;
-        padding-top: .5rem;
-    }
-
+.primerServicio:hover{
+    transform: scale(1.1);
 }

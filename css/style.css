@@ -45,7 +45,6 @@ body {
 
 .navLinkH:hover {
   color: #13c0a3;
-  border-bottom: 2px;
 }
 
 /****** MAIN INDEX ******/
@@ -141,12 +140,12 @@ body {
   display: flex;
 }
 
-.novedades {
+.servicios {
   background-color: #e2e2e2;
   width: 100%;
   padding-bottom: 20px;
 }
-.novedades .sinergia {
+.servicios .sinergia {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #5d6661;
   font-size: 13px;
@@ -156,7 +155,7 @@ body {
   padding-top: 2rem;
   margin-bottom: 15px;
 }
-.novedades .novedadesTittle {
+.servicios .serviciosTittle {
   font-family: "Monserat", sans-serif;
   color: #232425;
   font-weight: 700;
@@ -168,35 +167,36 @@ body {
 }
 
 /* Galeria Novedades */
-.galeriaNovedades {
+.galeriaServicios {
   background-color: #e2e2e2;
 }
-.galeriaNovedades .primerNovedad img {
-  width: 50%;
-}
-.galeriaNovedades .primerNovedad p {
-  font-family: "Monserat", sans-serif;
-  color: #5d6661;
-  font-weight: 400;
-  text-align: start;
-  display: inline-block;
-  width: 50%;
-  margin-top: 5px;
-  padding-left: 20px;
-}
-
-.primerNovedad {
+.galeriaServicios .primerServicio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
 }
-.primerNovedad .galeria h6 {
-  font-family: "Monserat", sans-serif;
-  color: #000000;
+.galeriaServicios .primerServicio h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.galeriaServicios .primerServicio .imgServicios {
+  border-radius: 10px;
+  width: 50%;
+}
+.galeriaServicios .primerServicio p {
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
-  font-weight: 600;
-  padding-top: 0.5rem;
+  font-weight: 400;
+  text-align: center;
+  width: 80%;
+  margin-top: 5px;
+}
+
+.primerServicio:hover {
+  transform: scale(1.1);
 }
 
 /****** MAIN NOSOTROS ******/
@@ -360,44 +360,59 @@ body {
   color: #fff9f4;
 }
 
-.container-proyecto {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-content: center;
-  place-items: center;
+.texto-producciones {
+  display: block;
+  width: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.texto-producciones p {
+  font-family: "Ubuntu", sans-serif;
+  color: #5d6661;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contenedor-proyecto {
+  display: flex;
   margin: 20px 0;
   gap: 2rem;
 }
-.container-proyecto .cont-proyecto1 {
+.contenedor-proyecto .cont-proyecto1 {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-.container-proyecto .cont-proyecto1 .titulo-proyecto1 {
+.contenedor-proyecto .cont-proyecto1 .titulo-proyecto1 {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   color: #000000;
 }
-.container-proyecto .cont-proyecto1 .videoBosche {
+.contenedor-proyecto .cont-proyecto1 .videoBosche {
   background-color: #161616;
   padding: 10px;
   border-radius: 10px;
 }
-.container-proyecto .containerTexto-Bosche {
+.contenedor-proyecto .containerTexto-Bosche {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
   width: 50%;
 }
-.container-proyecto .containerTexto-Bosche .tittle-bosche {
+.contenedor-proyecto .containerTexto-Bosche .tittle-bosche {
   font-size: 20px;
 }
-.container-proyecto .containerTexto-Bosche p {
-  font-weight: 100;
+.contenedor-proyecto .containerTexto-Bosche p {
+  font-weight: 400;
 }
 
 /****** MAIN FOTOGRAFIA ******/
@@ -418,7 +433,7 @@ body {
 
 .contenedorMiami {
   display: flex;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
 }
 
 .tittleMiami1 {
@@ -639,14 +654,12 @@ body {
   gap: 1rem;
 }
 
-/***** VERSION MOBILE *****/
-/* Index */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .logo {
     margin: 0;
   }
   .sectionImg-1 img {
-    width: 100%;
+    width: 90%;
   }
   .sectionImg-1 {
     display: grid;
@@ -693,14 +706,14 @@ body {
   .section-bienvenidos .p-creatividad {
     width: 100%;
   }
-  .galeriaMobile {
+  .galeriaTablets {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .primerNovedad {
+  .primerServicio {
     padding: 0.5rem;
   }
-  .primerNovedad p {
+  .primerServicio p {
     padding: 0;
   }
   /* Footer */
@@ -775,15 +788,15 @@ body {
     text-align: center;
   }
   /* Proyectos Mobile */
-  .container-proyecto {
+  .contenedor-proyecto {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .container-proyecto .cont-proyecto1 {
+  .contenedor-proyecto .cont-proyecto1 {
     width: 100%;
   }
-  .container-proyecto .containerTexto-Bosche {
+  .contenedor-proyecto .containerTexto-Bosche {
     width: 100%;
   }
   /* Fotografia Mobile */
@@ -822,5 +835,186 @@ body {
     padding: 0;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
+/***** VERSION MOBILE *****/
+/* Index */
+@media screen and (max-width: 480px) {
+  .logo {
+    margin: 0;
+  }
+  .sectionImg-1 img {
+    width: 100%;
+  }
+  .sectionImg-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+  }
+  .section-bienvenidos {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding-top: 10px;
+  }
+  .section-bienvenidos .somos-text-small {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+  }
+  .section-bienvenidos .tituloh2 {
+    margin: 0;
+    padding: 10px 0;
+  }
+  .section-bienvenidos .paragrah-cont1 {
+    margin: 0;
+    padding: 0;
+  }
+  .section-bienvenidos .paragrah-cont1 p {
+    margin-top: 5px;
+    padding: 0;
+  }
+  .section-bienvenidos .contenido-text {
+    display: flex;
+  }
+  .section-bienvenidos .cont-texto-bienv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0;
+  }
+  .section-bienvenidos .compromiso-container {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .section-bienvenidos .p-creatividad {
+    width: 100%;
+  }
+  .galeriaMobile {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .primerServicio {
+    padding: 0.5rem;
+  }
+  .primerServicio p {
+    padding: 0;
+  }
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 0;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .newsletterInput {
+    margin-top: 5px;
+  }
+  .btnNewsletter {
+    width: 50%;
+  }
+  .infoFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactoFooter {
+    text-align: center;
+  }
+  .cosasAburridas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+    width: 60%;
+    text-align: center;
+  }
+  .cosasAburridas span {
+    padding: 1px;
+  }
+  /* Nosotros Mobile */
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .nosotros1 {
+    width: 100%;
+  }
+  .imgRodaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .contenedor-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-promocion {
+    display: none;
+  }
+  .promocion {
+    width: 100%;
+    order: 1;
+    padding-bottom: 10px;
+  }
+  .tittlePromocion {
+    margin: 0;
+    padding: 0;
+  }
+  .botonConsulta {
+    display: inline-block;
+    text-align: center;
+  }
+  /* Proyectos Mobile */
+  .contenedor-proyecto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contenedor-proyecto .cont-proyecto1 {
+    width: 100%;
+  }
+  .contenedor-proyecto .containerTexto-Bosche {
+    width: 100%;
+  }
+  /* Fotografia Mobile */
+  .contenedorMiami {
+    display: flex;
+    flex-direction: column;
+  }
+  .tittleMiami1 {
+    width: 100%;
+    padding: 0;
+  }
+  .contenedorFoto1 {
+    width: 100%;
+  }
+  .mobile-order1 {
+    order: 1;
+  }
+  .mobile-order2 {
+    order: 2;
+  }
+  .contenedorContacto1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .contenedorContacto1 .form-section {
+    width: 100%;
+  }
+  .contenedorContacto1 .contenedorMap {
+    width: 100%;
+  }
+  .contenedorContacto1 .contenedorMap .tittleContact2 {
+    padding: 0;
+  }
+  .contenedorContacto1 .contenedorMap .map {
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
