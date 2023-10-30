@@ -127,6 +127,7 @@ body {
 .section-bienvenidos .text-medium {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   padding-bottom: 0.2rem;
 }
 .section-bienvenidos .p-creatividad {
@@ -177,9 +178,10 @@ body {
   justify-content: center;
   transition: 0.2s;
 }
-.galeriaServicios .primerServicio h6 {
+.galeriaServicios .primerServicio h5 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
+  font-size: 1rem;
   padding-top: 10px;
 }
 .galeriaServicios .primerServicio .imgServicios {
@@ -443,6 +445,11 @@ body {
 }
 
 .tittleMiami1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tituloFotos {
   font-size: 20px;
   font-weight: 500;
 }
@@ -1017,4 +1024,6 @@ body {
   .contenedorContacto1 .contenedorMap .map {
     padding: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
