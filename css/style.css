@@ -262,7 +262,7 @@ body {
 .valoresVision {
   display: flex;
   width: 100%;
-  padding: 5px 0;
+  padding: 0px 0;
 }
 
 .valoresContenedor {
@@ -277,6 +277,9 @@ body {
 .valoresContenedor .valoresInfo {
   width: 90%;
   font-size: 13px;
+}
+.valoresContenedor .valoresInfo p {
+  margin: 0;
 }
 
 .contenedorVision {
